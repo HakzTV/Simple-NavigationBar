@@ -1,0 +1,82 @@
+
+body{
+    margin:0;
+    padding:0;	
+}
+
+/*Styling of the nav bar as a whole*/
+.navbar{
+    display: grid;
+    min-height: 100px;
+    grid-auto-flow: column;
+    grid-gap: 10px;
+    background-color: black;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 30px;
+}
+/*This is where the logo is styled*/
+.logo{
+    display: grid;
+    align-content: center;
+    font-size: 30px ;
+    cursor: pointer;
+    font-family: fantasy;
+    font-weight: 900;
+    color: rebeccapurple;
+}
+/*This is where the links are styled as a whole*/
+.links{
+    display: grid;
+    justify-content: end;
+    align-content: center;
+    grid-auto-flow: column;
+    grid-gap: 20px;
+    font-size: 15px;
+    font-family: fantasy;
+    padding: 5px 85px;
+} 
+/*This is the styling of the anchor(a) tag*/
+.links a{
+    color: white;
+    padding: 20px;
+    line-height: 70px;
+    text-decoration: none;
+}
+/*This is where the color is added so that when you hover over the links it changes colors*/
+a:hover{
+    color: rebeccapurple;
+}
+/*This is for the styling of the button*/
+button{
+    border: none;
+    padding: 10px 20px;
+    background-color:rebeccapurple ;
+    width:100px;
+    border-radius: 20px;
+    background:rebeccapurple;
+    transition-property: background, width, height;
+    transition: ease 2s ;
+    color: white;
+    font-family: fantasy;
+    font-size: 15px;
+}
+/*This is where the color is added so that when you hover over the button it changes colors*/
+button:hover{
+    background: linear-gradient(-45deg, #2f1c53, #a46dff, #f6d1fd) ;
+    width: 150px;
+    height: 50px;
+    color: black;
+}
+/* This is the styling for the title as a whole */
+.title{
+    margin: 0px 50px;
+    padding: 0px 20px;
+    outline-style: dashed;
+
+}
+/* This is to style the header*/
+.title h1{
+    font-family: fantasy;
+    text-align: center;
+}
