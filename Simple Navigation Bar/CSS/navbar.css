@@ -26,25 +26,19 @@ html, body {
     font-size: 30px ;
     cursor: pointer;
     font-family: fantasy;
-    font-weight: 900;
     color: rebeccapurple;
 }
 /*This is where the links are styled as a whole*/
 .links{
     display: grid;
-    justify-content: end;
-    align-content: center;
     grid-auto-flow: column;
-    grid-gap: 20px;
-    font-size: 15px;
-    font-family: fantasy;
-    padding: 5px 85px;
+   
 } 
 /*This is the styling of the anchor(a) tag*/
 .links a{
     color: white;
-    padding: 20px;
     line-height: 70px;
+     font-family: fantasy;
     text-decoration: none;
 }
 /*This is where the color is added so that when you hover over the links it changes colors*/
@@ -60,7 +54,7 @@ button{
     border-radius: 20px;
     background:rebeccapurple;
     transition-property: background, width, height;
-    transition: ease 2s ;
+    transition: 2s ;
     color: white;
     font-family: fantasy;
     font-size: 15px;
